@@ -1,5 +1,5 @@
 # STM32_HAL_MPU6050_DMP
-Implemented MPU6050 DMP with STM32CubeMX HAL lib using **cpp** with the latest DMP Firmware Version 6.12. The code is modified from [**STM32_DMP_Driver**](https://github.com/fMeow/STM32_DMP_Driver/tree/I2Cdev) and arduino lib [**I2Cdevlib-MPU6050**](https://github.com/jrowberg/i2cdevlib).
+Implemented MPU6050 DMP by STM32CubeMX HAL lib using **CPP** with the latest DMP Firmware Version 6.12. The code is modified from [**STM32_DMP_Driver**](https://github.com/fMeow/STM32_DMP_Driver/tree/I2Cdev) and arduino lib [**I2Cdevlib-MPU6050**](https://github.com/jrowberg/i2cdevlib).
 
 # headers
 
