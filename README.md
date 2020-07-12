@@ -5,7 +5,7 @@ Implemented MPU6050 DMP with STM32CubeMX HAL lib using **cpp** with the latest D
 
 `MPU6050_6Axis_MotionApps20.h` Based on an old InvenSense DMP driver with Detailed comments
 
-`MPU6050_6Axis_MotionApps_V6_12.h` DMP Firmware Version 6.12 Latest as of today with many features and bug fixes;
+`MPU6050_6Axis_MotionApps_V6_12.h` DMP Firmware Version 6.12 Latest as of today with many features and bug fixes:
 
 - MPU6050 Registers have not changed just the DMP Image so that full backwards compatibility is present
 - Run-time calibration routine is enabled which calibrates after no motion state is detected
