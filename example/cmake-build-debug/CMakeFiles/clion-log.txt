@@ -1,0 +1,4 @@
+/home/hu/clion-2020.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hu/CLionProjects/HAL_MPU6050_DMP
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug

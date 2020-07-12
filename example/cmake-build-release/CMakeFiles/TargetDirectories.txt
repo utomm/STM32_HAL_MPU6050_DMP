@@ -1,0 +1,3 @@
+/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-release/CMakeFiles/HAL_MPU6050_DMP.elf.dir

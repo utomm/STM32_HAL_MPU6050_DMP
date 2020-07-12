@@ -1,0 +1,464 @@
+The target system is: Generic - 1 - 
+The host system is: Linux - 5.3.0-62-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (15:6.3.1+svn253039-1build1) 6.3.1 20170620
+Copyright (C) 2016 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35d19/fast && /usr/bin/make -f CMakeFiles/cmTC_35d19.dir/build.make CMakeFiles/cmTC_35d19.dir/build
+make[1]: Entering directory '/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/arm-none-eabi-g++    -mcpu=cortex-m3  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -u _printf_float -O3 -std=c++11    -v -o CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj -c /home/hu/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp to nano_cpp
+COLLECT_GCC=/usr/bin/arm-none-eabi-g++
+Target: arm-none-eabi
+Configured with: ../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:6.3.1+svn253039-1build1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 6.3.1 20170620 (15:6.3.1+svn253039-1build1) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /usr/lib/gcc/arm-none-eabi/6.3.1/cc1plus -quiet -v -imultilib thumb/v7-m -D__USES_INITFINI__ /home/hu/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m3 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj -g -O3 -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/cc1Mro5o.s
+GNU C++11 (15:6.3.1+svn253039-1build1) version 6.3.1 20170620 (arm-none-eabi)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 4.0.1-rc1, MPC version 1.1.0, isl version 0.15
+warning: MPFR header version 4.0.1-rc1 differs from library version 4.0.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1
+ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/arm-none-eabi/thumb/v7-m
+ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/backward
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C++11 (15:6.3.1+svn253039-1build1) version 6.3.1 20170620 (arm-none-eabi)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 4.0.1-rc1, MPC version 1.1.0, isl version 0.15
+warning: MPFR header version 4.0.1-rc1 differs from library version 4.0.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 881c69dea8852328c0fadac0d576ed22
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/as -v -mcpu=cortex-m3 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc1Mro5o.s
+GNU assembler version 2.27 (arm-none-eabi) using BFD version (2.27-9ubuntu1+9) 2.27
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_35d19
+/home/hu/clion-2020.1.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35d19.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-g++  -mcpu=cortex-m3  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -u _printf_float -O3 -std=c++11   -Wl,-gc-sections,--print-memory-usage -T /home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld -v CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_35d19 
+Using built-in specs.
+Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp to nano_cpp
+COLLECT_GCC=/usr/bin/arm-none-eabi-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: ../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:6.3.1+svn253039-1build1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 6.3.1 20170620 (15:6.3.1+svn253039-1build1) 
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=c++11' '-T' '/home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld' '-v' '-o' 'cmTC_35d19'
+ /usr/lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccra2zzs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -X -o cmTC_35d19 -u _printf_float /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtbegin.o /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m -L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m -L/usr/lib/gcc/arm-none-eabi/6.3.1 -L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtend.o /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtn.o -T /home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2576 B        20 KB     12.58%
+           FLASH:       14044 B        64 KB     21.43/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=c++11' '-T' '/home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld' '-v' '-o' 'cmTC_35d19'
+make[1]: Leaving directory '/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1]
+    add: [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/arm-none-eabi/thumb/v7-m]
+    add: [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/backward]
+    add: [/usr/lib/gcc/arm-none-eabi/6.3.1/include]
+    add: [/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed]
+    add: [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1] ==> [/usr/lib/arm-none-eabi/include/c++/6.3.1]
+  collapse include dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/arm-none-eabi/thumb/v7-m] ==> [/usr/lib/arm-none-eabi/include/c++/6.3.1/arm-none-eabi/thumb/v7-m]
+  collapse include dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/backward] ==> [/usr/lib/arm-none-eabi/include/c++/6.3.1/backward]
+  collapse include dir [/usr/lib/gcc/arm-none-eabi/6.3.1/include] ==> [/usr/lib/gcc/arm-none-eabi/6.3.1/include]
+  collapse include dir [/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed]
+  collapse include dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include] ==> [/usr/lib/arm-none-eabi/include]
+  implicit include dirs: [/usr/lib/arm-none-eabi/include/c++/6.3.1;/usr/lib/arm-none-eabi/include/c++/6.3.1/arm-none-eabi/thumb/v7-m;/usr/lib/arm-none-eabi/include/c++/6.3.1/backward;/usr/lib/gcc/arm-none-eabi/6.3.1/include;/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed;/usr/lib/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_35d19/fast && /usr/bin/make -f CMakeFiles/cmTC_35d19.dir/build.make CMakeFiles/cmTC_35d19.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/arm-none-eabi-g++    -mcpu=cortex-m3  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -u _printf_float -O3 -std=c++11    -v -o CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj -c /home/hu/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp to nano_cpp]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: ../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:6.3.1+svn253039-1build1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 6.3.1 20170620 (15:6.3.1+svn253039-1build1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/cc1plus -quiet -v -imultilib thumb/v7-m -D__USES_INITFINI__ /home/hu/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m3 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj -g -O3 -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/cc1Mro5o.s]
+  ignore line: [GNU C++11 (15:6.3.1+svn253039-1build1) version 6.3.1 20170620 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.2.0  GMP version 6.1.2  MPFR version 4.0.1-rc1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: MPFR header version 4.0.1-rc1 differs from library version 4.0.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1]
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/arm-none-eabi/thumb/v7-m]
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include/c++/6.3.1/backward]
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/include]
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed]
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++11 (15:6.3.1+svn253039-1build1) version 6.3.1 20170620 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.2.0  GMP version 6.1.2  MPFR version 4.0.1-rc1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: MPFR header version 4.0.1-rc1 differs from library version 4.0.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 881c69dea8852328c0fadac0d576ed22]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/as -v -mcpu=cortex-m3 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc1Mro5o.s]
+  ignore line: [GNU assembler version 2.27 (arm-none-eabi) using BFD version (2.27-9ubuntu1+9) 2.27]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_35d19]
+  ignore line: [/home/hu/clion-2020.1.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35d19.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-g++  -mcpu=cortex-m3  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -u _printf_float -O3 -std=c++11   -Wl -gc-sections --print-memory-usage -T /home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld -v CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_35d19 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp to nano_cpp]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: ../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:6.3.1+svn253039-1build1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 6.3.1 20170620 (15:6.3.1+svn253039-1build1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=c++11' '-T' '/home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld' '-v' '-o' 'cmTC_35d19']
+  link line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccra2zzs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -X -o cmTC_35d19 -u _printf_float /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtbegin.o /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m -L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m -L/usr/lib/gcc/arm-none-eabi/6.3.1 -L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtend.o /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtn.o -T /home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld]
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccra2zzs.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_35d19] ==> ignore
+    arg [-u] ==> ignore
+    arg [_printf_float] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtbegin.o] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/crt0.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m] ==> dir [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m]
+    arg [-L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m] ==> dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m]
+    arg [-L/usr/lib/gcc/arm-none-eabi/6.3.1] ==> dir [/usr/lib/gcc/arm-none-eabi/6.3.1]
+    arg [-L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib]
+    arg [-gc-sections] ==> ignore
+    arg [--print-memory-usage] ==> ignore
+    arg [CMakeFiles/cmTC_35d19.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++_nano] ==> lib [stdc++_nano]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lg_nano] ==> lib [g_nano]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtn.o] ==> ignore
+    arg [-T] ==> ignore
+    arg [/home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld] ==> ignore
+  collapse library dir [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m] ==> [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m]
+  collapse library dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m] ==> [/usr/lib/arm-none-eabi/lib/thumb/v7-m]
+  collapse library dir [/usr/lib/gcc/arm-none-eabi/6.3.1] ==> [/usr/lib/gcc/arm-none-eabi/6.3.1]
+  collapse library dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib] ==> [/usr/lib/arm-none-eabi/lib]
+  implicit libs: [stdc++_nano;m;gcc;g_nano;c_nano;gcc;c_nano;nosys;gcc;c_nano;nosys]
+  implicit dirs: [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m;/usr/lib/arm-none-eabi/lib/thumb/v7-m;/usr/lib/gcc/arm-none-eabi/6.3.1;/usr/lib/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5414/fast && /usr/bin/make -f CMakeFiles/cmTC_d5414.dir/build.make CMakeFiles/cmTC_d5414.dir/build
+make[1]: Entering directory '/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m3  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -u _printf_float -O3 -std=gnu99    -v -o CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj   -c /home/hu/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp to nano_cpp
+COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: ../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:6.3.1+svn253039-1build1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 6.3.1 20170620 (15:6.3.1+svn253039-1build1) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj' '-c'
+ /usr/lib/gcc/arm-none-eabi/6.3.1/cc1 -quiet -v -imultilib thumb/v7-m -isystem /usr/include/newlib/nano -D__USES_INITFINI__ /home/hu/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m3 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj -g -O3 -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/ccmcJOxu.s
+GNU C99 (15:6.3.1+svn253039-1build1) version 6.3.1 20170620 (arm-none-eabi)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 4.0.1-rc1, MPC version 1.1.0, isl version 0.15
+warning: MPFR header version 4.0.1-rc1 differs from library version 4.0.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/newlib/nano
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed
+ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include
+End of search list.
+GNU C99 (15:6.3.1+svn253039-1build1) version 6.3.1 20170620 (arm-none-eabi)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 4.0.1-rc1, MPC version 1.1.0, isl version 0.15
+warning: MPFR header version 4.0.1-rc1 differs from library version 4.0.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3390469c3385c15ce695b94c5e1c198d
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj' '-c'
+ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/as -v -mcpu=cortex-m3 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj /tmp/ccmcJOxu.s
+GNU assembler version 2.27 (arm-none-eabi) using BFD version (2.27-9ubuntu1+9) 2.27
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj' '-c'
+Linking C executable cmTC_d5414
+/home/hu/clion-2020.1.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5414.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m3  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -u _printf_float -O3 -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T /home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld -v CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj  -o cmTC_d5414 
+Using built-in specs.
+Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp to nano_cpp
+COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: ../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:6.3.1+svn253039-1build1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip
+Thread model: single
+gcc version 6.3.1 20170620 (15:6.3.1+svn253039-1build1) 
+COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=gnu99' '-T' '/home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld' '-v' '-o' 'cmTC_d5414'
+ /usr/lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYWiB9x.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -X -o cmTC_d5414 -u _printf_float /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtbegin.o /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m -L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m -L/usr/lib/gcc/arm-none-eabi/6.3.1 -L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtend.o /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtn.o -T /home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2576 B        20 KB     12.58%
+           FLASH:       14044 B        64 KB     21.43/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+%
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=gnu99' '-T' '/home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld' '-v' '-o' 'cmTC_d5414'
+make[1]: Leaving directory '/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/newlib/nano]
+    add: [/usr/lib/gcc/arm-none-eabi/6.3.1/include]
+    add: [/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed]
+    add: [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/usr/include/newlib/nano] ==> [/usr/include/newlib/nano]
+  collapse include dir [/usr/lib/gcc/arm-none-eabi/6.3.1/include] ==> [/usr/lib/gcc/arm-none-eabi/6.3.1/include]
+  collapse include dir [/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed]
+  collapse include dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include] ==> [/usr/lib/arm-none-eabi/include]
+  implicit include dirs: [/usr/include/newlib/nano;/usr/lib/gcc/arm-none-eabi/6.3.1/include;/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed;/usr/lib/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d5414/fast && /usr/bin/make -f CMakeFiles/cmTC_d5414.dir/build.make CMakeFiles/cmTC_d5414.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hu/CLionProjects/HAL_MPU6050_DMP/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m3  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -u _printf_float -O3 -std=gnu99    -v -o CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj   -c /home/hu/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp to nano_cpp]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: ../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:6.3.1+svn253039-1build1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 6.3.1 20170620 (15:6.3.1+svn253039-1build1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/cc1 -quiet -v -imultilib thumb/v7-m -isystem /usr/include/newlib/nano -D__USES_INITFINI__ /home/hu/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m3 -mthumb -mthumb-interwork -auxbase-strip CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj -g -O3 -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o /tmp/ccmcJOxu.s]
+  ignore line: [GNU C99 (15:6.3.1+svn253039-1build1) version 6.3.1 20170620 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.2.0  GMP version 6.1.2  MPFR version 4.0.1-rc1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: MPFR header version 4.0.1-rc1 differs from library version 4.0.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/newlib/nano]
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/include]
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed]
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C99 (15:6.3.1+svn253039-1build1) version 6.3.1 20170620 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.2.0  GMP version 6.1.2  MPFR version 4.0.1-rc1  MPC version 1.1.0  isl version 0.15]
+  ignore line: [warning: MPFR header version 4.0.1-rc1 differs from library version 4.0.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3390469c3385c15ce695b94c5e1c198d]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/as -v -mcpu=cortex-m3 -mthumb-interwork -meabi=5 -o CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj /tmp/ccmcJOxu.s]
+  ignore line: [GNU assembler version 2.27 (arm-none-eabi) using BFD version (2.27-9ubuntu1+9) 2.27]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=gnu99' '-v' '-o' 'CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C executable cmTC_d5414]
+  ignore line: [/home/hu/clion-2020.1.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5414.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m3  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -u _printf_float -O3 -std=gnu99   -Wl -gc-sections --print-memory-usage -T /home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld -v CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj  -o cmTC_d5414 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp to nano_cpp]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: ../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:6.3.1+svn253039-1build1 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile CFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' FFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' GCJFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -fdebug-prefix-map=/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039=. -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 6.3.1 20170620 (15:6.3.1+svn253039-1build1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/:/usr/lib/gcc/arm-none-eabi/6.3.1/:/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m3' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-u' '_printf_float' '-O3' '-std=gnu99' '-T' '/home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld' '-v' '-o' 'cmTC_d5414']
+  link line: [ /usr/lib/gcc/arm-none-eabi/6.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYWiB9x.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -X -o cmTC_d5414 -u _printf_float /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtbegin.o /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m -L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m -L/usr/lib/gcc/arm-none-eabi/6.3.1 -L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtend.o /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtn.o -T /home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld]
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/6.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYWiB9x.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d5414] ==> ignore
+    arg [-u] ==> ignore
+    arg [_printf_float] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtbegin.o] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m/crt0.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m] ==> dir [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m]
+    arg [-L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m] ==> dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m]
+    arg [-L/usr/lib/gcc/arm-none-eabi/6.3.1] ==> dir [/usr/lib/gcc/arm-none-eabi/6.3.1]
+    arg [-L/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib]
+    arg [-gc-sections] ==> ignore
+    arg [--print-memory-usage] ==> ignore
+    arg [CMakeFiles/cmTC_d5414.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lg_nano] ==> lib [g_nano]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtn.o] ==> ignore
+    arg [-T] ==> ignore
+    arg [/home/hu/CLionProjects/HAL_MPU6050_DMP/STM32F103C8Tx_FLASH.ld] ==> ignore
+  collapse library dir [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m] ==> [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m]
+  collapse library dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7-m] ==> [/usr/lib/arm-none-eabi/lib/thumb/v7-m]
+  collapse library dir [/usr/lib/gcc/arm-none-eabi/6.3.1] ==> [/usr/lib/gcc/arm-none-eabi/6.3.1]
+  collapse library dir [/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib] ==> [/usr/lib/arm-none-eabi/lib]
+  implicit libs: [gcc;g_nano;c_nano;gcc;c_nano;nosys;gcc;c_nano;nosys]
+  implicit dirs: [/usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m;/usr/lib/arm-none-eabi/lib/thumb/v7-m;/usr/lib/gcc/arm-none-eabi/6.3.1;/usr/lib/arm-none-eabi/lib]
+  implicit fwks: []
+
+
